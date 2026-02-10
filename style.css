@@ -1,3 +1,5 @@
 body {
-    background-color: lightblue;
-  }
+  background-image: url("blue_sky_with_bird.JPG");
+  color: black;
+  font: Arial, sans-serif;
+}
