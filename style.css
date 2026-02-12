@@ -1,5 +1,23 @@
 body {
-  background-image: url("blue_sky_with_bird.JPG");
-  color: black;
-  font: Arial, sans-serif;
+    background-image: url("waterfallB&W.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: 100%;
+    color:white
+}
+
+h3{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 15px;
+  width: 300px;
+
+}
+a{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 15px;
+  margin-right: -150px;
 }
