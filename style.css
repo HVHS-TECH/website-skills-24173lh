@@ -1,23 +1,30 @@
 body {
-    background-image: url("waterfallB&W.jpg");
+    background-image: url("Images/waterfallB&W.jpg");
     background-size: cover;
     background-repeat: no-repeat; 
     height: 100%;
     color:white
 }
 
-h3{
+#yt{
   background-color: black;
   color: white;
-  padding: 5px;
-  border-radius: 15px;
+  border-radius: 8px;
   width: 300px;
-
+  padding: 5px;
 }
 a{
   background-color: black;
   color: white;
   padding: 5px;
-  border-radius: 15px;
+  border-radius: 8px;
   margin-right: -150px;
+}
+
+img{
+  border-radius: 25px;
+}
+
+.maori{
+  color: red;
 }
