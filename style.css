@@ -1,3 +1,4 @@
+
 body {
     background-image: url("Images/waterfallB&W.jpg");
     background-size: cover;
@@ -29,16 +30,7 @@ img{
   color: red;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 440px 400px ;
-  grid-template-rows: 50% 50%;
-  background-color: rgba(30, 143, 255, 0);
-  padding: 10px;
-  column-gap: 15px;
-  row-gap: 10px;
-  
-}
+
 .container div {
   background-color: #f1f1f100;
   border: 10px solid white;
@@ -47,7 +39,19 @@ img{
   text-align: center;
   border-radius: 25px;
 }
-.item1 {
+
+@media screen and (max-width: 599px){
+
+.container {
+  display: grid;
+  grid-template-columns: 440px  ;
+  grid-template-rows: auto auto auto;
+  padding: 10px;
+  column-gap: 15px;
+  row-gap: 10px;
+  
+}
+  .item1 {
   align-self: center;
   grid-row-start: 1;
   grid-row-end: 3;
@@ -57,4 +61,56 @@ img{
 }
 .item3 {
   align-self: center;
+}
+}
+
+@media screen and (min-width: 600px) and (max-width: 999px){
+  body {
+    background-image: url("Images/blue_sky_with_bird.jpg");
+  
+  
+  }
+    .container {
+  display: grid;
+  grid-template-columns: 440px 400px ;
+  grid-template-rows: auto auto auto;
+  padding: 10px;
+  column-gap: 15px;
+  row-gap: 10px;
+    }
+     .item1 {
+  align-self: center;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.item2 {
+  align-self: center;
+}
+.item3 {
+  align-self: center;
+}
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    background-image: url("Images/waterfallB&W.jpg");
+  
+  
+  }
+    .container {
+  display: grid;
+  grid-template-columns: 440px 400px 400px;
+  grid-template-rows: 310px 310px;
+  padding: 10px;
+  column-gap: 15px;
+  row-gap: 10px;
+    }
+
+    .item1 {
+  align-self: center;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  
+}
+
 }
